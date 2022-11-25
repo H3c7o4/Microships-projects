@@ -87,5 +87,5 @@ Where to reach me :
   <img align="left" alt="Hector's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
 </a>
 
-
+[^note]:
 Author : **ITOK Steve Hector**
