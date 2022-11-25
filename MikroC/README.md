@@ -53,3 +53,19 @@ If the correct password is entered, the motor turns in direction 1 for 5 seconds
 <img align="center" alt="Coded lock" width="300px" src="https://github.com/H3c7o4/Microships-projects/blob/master/MikroC/images/github2.png" />
 <img align="center" alt="Coded lock" width="300px" src="https://github.com/H3c7o4/Microships-projects/blob/master/MikroC/images/github3.png" />
 
+## Notions of music on the microphone (Alarm bell & doorbell)
+
+Every musical sound (or note) has a fundamental frequency (number of vibrations per second calculated in hertz) corresponding to its pitch. Two notes whose fundamental frequencies have a ratio that is a power of two (i.e. half, double, quadruple...) give two very similar sounds and have the same name. This observation makes it possible to group all notes that have this property in the same pitch category.
+
+In Western music, there are twelve pitch categories. Seven of them are considered to be the main ones and are named: C, D, E, F, G, A and B. The interval between two pitches where the frequency of one is twice (or half) that of the other is called an octave. To distinguish two notes of the same name in two different octaves, we number the octaves and give this number to the corresponding notes: for example, the A3 has a frequency of 440 hertz in the international standard. This reference frequency is given by a tuning fork.
+
+<img align="center" alt="Coded lock" width="500px" src="https://github.com/H3c7o4/Microships-projects/blob/master/MikroC/images/github5.png" />
+
+<img align="center" alt="Coded lock" width="300px" src="https://github.com/H3c7o4/Microships-projects/blob/master/MikroC/images/github4.png" />
+
+## Exemple :
+
+ - Note C4 during 1 second : Sound_play(523,1000)
+ - Note F4 during 400 ms : Sound_play(698,400)
+
+> Note : Avant d’utiliser la fonction Sound_play, il faut affecter un pin et un port pour sortir le son grâce à la fonction Sound_Init(&PORT, Num_Pin)  [Sound_init(&PORTD,4)]
