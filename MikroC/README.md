@@ -59,7 +59,7 @@ Every musical sound (or note) has a fundamental frequency (number of vibrations 
 
 In Western music, there are twelve pitch categories. Seven of them are considered to be the main ones and are named: C, D, E, F, G, A and B. The interval between two pitches where the frequency of one is twice (or half) that of the other is called an octave. To distinguish two notes of the same name in two different octaves, we number the octaves and give this number to the corresponding notes: for example, the A3 has a frequency of 440 hertz in the international standard. This reference frequency is given by a tuning fork.
 
-<img align="center" alt="Coded lock" width="500px" src="https://github.com/H3c7o4/Microships-projects/blob/master/MikroC/images/github5.jpg" />
+<img align="center" alt="Coded lock" width="1000px" src="https://github.com/H3c7o4/Microships-projects/blob/master/MikroC/images/github5.jpg" />
 
 <img align="center" alt="Coded lock" width="300px" src="https://github.com/H3c7o4/Microships-projects/blob/master/MikroC/images/github4.png" />
 
@@ -69,3 +69,20 @@ In Western music, there are twelve pitch categories. Seven of them are considere
  - Note F4 during 400 ms : Sound_play(698,400)
 
 > Note: Before using the Sound_play function, you must assign a pin and a port to output the sound using the Sound_Init(&PORT, Num_Pin) function [Sound_init(&PORTD,4)]
+
+For more informations on this project or things related to microcontroller, please [contact me](mailto:hectorvladitok@gmail.com)
+
+Author : ITOK Steve Hector
+reach me :
+<a href="https://www.instagram.com/HectorVladitok/">
+  <img align="left" alt="Hector's Instagram" width="22px" src="https://raw.githubusercontent.com/hussainweb/hussainweb/main/icons/instagram.png" />
+</a>
+<a href="https://discord.com/channels/@Hector BenMyriam#0823">
+  <img align="left" alt="Hector's Discord" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/discord.svg" />
+</a>
+<a href="https://twitter.com/ItokVlad">
+  <img align="left" alt="Hector Vlad | Twitter" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
+</a>
+<a href="https://www.linkedin.com/in/hector-vlad-itok-1a3829182">
+  <img align="left" alt="Hector's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
+</a>
