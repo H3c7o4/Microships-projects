@@ -72,8 +72,6 @@ In Western music, there are twelve pitch categories. Seven of them are considere
 
 For more informations on this project or things related to microcontroller, please [contact me](mailto:hectorvladitok@gmail.com).
 
-Author :**ITOK Steve Hector**
-
 Where to reach me :
 
 <a href="https://www.instagram.com/HectorVladitok/">
@@ -88,3 +86,5 @@ Where to reach me :
 <a href="https://www.linkedin.com/in/hector-vlad-itok-1a3829182">
   <img align="left" alt="Hector's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
 </a>
+
+Author : **ITOK Steve Hector**
