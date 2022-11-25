@@ -39,11 +39,11 @@
 
 The project consists of a 4×3 keyboard, a 16×2 LCD display, status LEDs, a speaker and a push button.
 
-1. Keyboard: Allows to write the password, the size of the word is variable according to the value of the parameter LengthPassWord, by default LengthPassWord=5. The keyboard also allows to reactivate the keyboard in case of exceeding the number of allowed attempts. The unlocking character = Enable_PW.
-2. LCD display: Display of the characters instructed by the keyboard and the status of the password ' or 'Correct'.
-3. Status LED: 3 status LEDs : Correct password and door open
-4. Speaker: Alarm when the number of allowed attempts is exceeded
-5. Push button : Alarm stop. The button only allows to block the alarm, in case of pressing one of the buttons of the keyboard, the alarm starts from. To unblock the alarm it is necessary to type the reactivation character of the keyboard.
+1. **Keyboard:** Allows to write the password, the size of the word is variable according to the value of the parameter LengthPassWord, by default LengthPassWord=5. The keyboard also allows to reactivate the keyboard in case of exceeding the number of allowed attempts. The unlocking character = Enable_PW.
+2. **LCD display:** Display of the characters instructed by the keyboard and the status of the password ' or 'Correct'.
+3. **Status LED:** 3 status LEDs : Correct password and door open
+4. **Speaker:** Alarm when the number of allowed attempts is exceeded
+5. **Push button :** Alarm stop. The button only allows to block the alarm, in case of pressing one of the buttons of the keyboard, the alarm starts from. To unblock the alarm it is necessary to type the reactivation character of the keyboard.
 
 If the correct password is entered, the motor turns in direction 1 for 5 seconds, brakes for 3 seconds and then turns in direction 2 for 5 seconds. The times (braking, rotation direction1/2) can be set by the following parameters in the program: Time_ms_sens1, Time_ms_sens2 and Time_ms_door.
 
