@@ -70,10 +70,12 @@ In Western music, there are twelve pitch categories. Seven of them are considere
 
 > Note: Before using the Sound_play function, you must assign a pin and a port to output the sound using the Sound_Init(&PORT, Num_Pin) function [Sound_init(&PORTD,4)]
 
-For more informations on this project or things related to microcontroller, please [contact me](mailto:hectorvladitok@gmail.com)
+For more informations on this project or things related to microcontroller, please [contact me](mailto:hectorvladitok@gmail.com).
 
-Author : ITOK Steve Hector
-reach me :
+Author :**ITOK Steve Hector**
+
+Where to reach me :
+
 <a href="https://www.instagram.com/HectorVladitok/">
   <img align="left" alt="Hector's Instagram" width="22px" src="https://raw.githubusercontent.com/hussainweb/hussainweb/main/icons/instagram.png" />
 </a>
