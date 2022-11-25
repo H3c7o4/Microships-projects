@@ -5,6 +5,7 @@
  - Arduino Uno
  - Max7219 8 * 8 led matrix
  - Adafruit Analog Accelerometer: ADXL335
+ - 7.4v battery
 
 ## Necessary tools and Machines
 
