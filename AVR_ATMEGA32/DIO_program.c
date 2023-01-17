@@ -173,44 +173,20 @@ void SET_Value_4LSB(u8 port, u8 value)
 	switch (port)
         {
                 case PORT_A:
-                        if (value == LOW)
-                        {
-                                PORTA &= 0xF0;
-                        }
-                        else if (direction == HIGH)
-                        {
-                                PORTA |= 0x0F;
-                        }
+			PORTA &= 0xF0;
+			PORTA |= Value;
                         break;
                 case PORT_B:
-                        if (value == LOW)
-                        {
-                                PORTB &= 0xF0;
-                        }
-                        else if (value == HIGH)
-                        {
-                                PORTB |= 0x0F;
-                        }
+			PORTB &= 0xF0;
+                        PORTB |= Value;
                         break;
                 case PORT_C:
-                        if (value == LOW)
-                        {
-                                PORTC &= 0xF0;
-                        }
-                        else if (value == HIGH)
-                        {
-                                PORTC |= 0x0F;
-                        }
+                        PORTC &= 0xF0;
+                        PORTC |= Value;
                         break;
                 case PORT_D:
-                        if (value == LOW)
-                        {
-                                PORTD &= 0xF0;
-                        }
-                        else if (value == HIGH)
-                        {
-                                PORTA |= 0x0;
-                        }
+			PORTD &= 0xF0;
+                        PORTD |= Value;
                         break;
 }
 
@@ -265,43 +241,19 @@ void SET_Value_4MSB(u8 port, u8 value)
 	switch (port)
         {
                 case PORT_A:
-                        if (value == LOW)
-                        {
-                                PORTA &= 0x0F;
-                        }
-                        else if (direction == HIGH)
-                        {
-                                PORTA |= 0xF0;
-                        }
+                        PORTA &= 0x0F;
+                        PORTA |= Value;
                         break;
                 case PORT_B:
-                        if (value == LOW)
-                        {
-                                PORTB &= 0x0F;
-                        }
-                        else if (value == HIGH)
-                        {
-                                PORTB |= 0xF0;
-                        }
+                        PORTB &= 0x0F;
+                        PORTB |= Value;
                         break;
                 case PORT_C:
-                        if (value == LOW)
-                        {
-                                PORTC &= 0x0F;
-                        }
-                        else if (value == HIGH)
-                        {
-                                PORTC |= 0xF0;
-                        }
+                        PORTC &= 0x0F;
+                        PORTC |= Value;
                         break;
                 case PORT_D:
-                        if (value == LOW)
-                        {
-                                PORTD &= 0x0F;
-                        }
-                        else if (value == HIGH)
-                        {
-                                PORTA |= 0xF0;
-                        }
+                        PORTD &= 0x0F;
+                        PORTD |= Value;
                         break;
 }
